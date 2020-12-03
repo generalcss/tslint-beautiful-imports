@@ -16,6 +16,10 @@
   ],
   "author": "gilbert de graaf",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/generalcss/tslint-beautiful-imports.git"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.16",
     "@types/node": "^14.14.10",
