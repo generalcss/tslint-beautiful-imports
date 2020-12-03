@@ -49,9 +49,9 @@ tslint.json
 
 {
   ...,
-  "rulesDirectory": [
+  "extends": [
     ...,
-    "node_modules/tslint-beautiful-imports/rules"
+    "tslint-beautiful-imports"
   ],
   rules: [
     ...,
