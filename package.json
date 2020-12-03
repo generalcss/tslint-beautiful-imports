@@ -1,5 +1,5 @@
 {
-  "name": "deviant-tslint-rules",
+  "name": "tslint-beautiful-imports",
   "version": "1.0.0",
   "description": "A set of rules made by uitgeverij-deviant.nl",
   "main": "index.js",
