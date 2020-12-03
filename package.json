@@ -4,12 +4,13 @@
   "description": "A set of rules made by uitgeverij-deviant.nl",
   "main": "index.js",
   "scripts": {
-    "build": "tsc rules/*.ts --resolveJsonModule --lib es6",
+    "build": "tsc",
     "test": "jest"
   },
   "keywords": [
     "tslintrule",
     "tslint",
+    "newlines",
     "whitespace",
     "imports"
   ],

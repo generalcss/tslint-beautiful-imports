@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
-    "resolveJsonModule": true
-  }
+    "resolveJsonModule": true,
+    "lib": ["es6"]
+  },
+  "include": [
+    "helpers/**/*.ts",
+    "rules/**/*.ts"
+  ]
 }

@@ -36,5 +36,10 @@ describe('sr blank lines after imports', function () {
             var result = linting_test_helpers_1.lintHelper({ sourceFile: sourceFile, ruleName: ruleName });
             expect(result.errorCount).toBe(1);
         });
+        test('FAIL on 3 imports blocks with no blank lines after them, but multiple blank lines in between blocks', function () {
+            var sourceFile = "\n        import * as React from 'react';git push -u origin master\n        import { SomeGlobalModule } from '@/utils/some-util';\n        import { SomeGlobalModule } from '@/modules/some-global-module1';\n\n\n\n\n        import { SomeGlobalModule } from '@/modules/some-global-module2';\n        import { SomeGlobalModule } from '@/components/some-global-module3';\n        import { SomeLocalModule } from '../../folder/some-local-module';\n\n        import { SomeLocalModule } from '../folder/some-local-module';\n        import { SomeLocalModule } from './folder/some-local-module';\n        import '../icon.svg';\n        import './styles.scss';\n        const myVar = 'test';\n      ";
+            var result = linting_test_helpers_1.lintHelper({ sourceFile: sourceFile, ruleName: ruleName });
+            expect(result.errorCount).toBe(1);
+        });
     });
 });
