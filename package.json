@@ -1,7 +1,7 @@
 {
   "name": "tslint-beautiful-imports",
-  "version": "1.0.0",
-  "description": "A set of rules made by uitgeverij-deviant.nl",
+  "version": "1.0.1",
+  "description": "A set of rules for having beautiful imports",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
