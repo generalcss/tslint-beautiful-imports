@@ -1,6 +1,6 @@
 {
   "name": "tslint-beautiful-imports",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A set of rules for having beautiful imports",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,11 @@
     "newlines",
     "whitespace",
     "imports"
+  ],
+  "files": [
+    "rules/*.js",
+    "index.js",
+    "readme.md"
   ],
   "author": "gilbert de graaf",
   "license": "ISC",
