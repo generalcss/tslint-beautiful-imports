@@ -5,7 +5,7 @@ import * as ts from 'typescript';
 
 export class Rule extends Rules.AbstractRule {
   static metadata: IRuleMetadata = {
-    ruleName: 'sr-blank-lines-after-imports',
+    ruleName: 'blank-lines-after-imports',
     description: 'Helps to keep blank lines after import statements.',
     options: {
       type: 'number',

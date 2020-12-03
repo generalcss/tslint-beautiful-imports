@@ -29,7 +29,7 @@ var Rule = /** @class */ (function (_super) {
         }));
     };
     Rule.metadata = {
-        ruleName: 'sr-blank-lines-after-imports',
+        ruleName: 'blank-lines-after-imports',
         description: 'Helps to keep blank lines after import statements.',
         options: {
             type: 'number'

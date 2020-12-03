@@ -1,9 +1,9 @@
 import { lintHelper } from '../helpers/linting-test.helpers';
 
 
-const ruleName = 'sr-blank-lines-after-imports';
+const ruleName = 'blank-lines-after-imports';
 
-describe('sr blank lines after imports', () => {
+describe('blank lines after imports', () => {
 
   describe('2 blank lines', () => {
     test('error on 1 blank line', () => {

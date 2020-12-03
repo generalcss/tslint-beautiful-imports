@@ -19,6 +19,6 @@
     "no-trailing-whitespace": true,
     "object-literal-sort-keys": false,
     "max-classes-per-file": [false, 1],
-    "sr-blank-lines-after-imports": [true, 2]
+    "blank-lines-after-imports": [true, 2]
   }
 }

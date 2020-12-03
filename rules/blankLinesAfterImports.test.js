@@ -1,8 +1,8 @@
 "use strict";
 exports.__esModule = true;
 var linting_test_helpers_1 = require("../helpers/linting-test.helpers");
-var ruleName = 'sr-blank-lines-after-imports';
-describe('sr blank lines after imports', function () {
+var ruleName = 'blank-lines-after-imports';
+describe('blank lines after imports', function () {
     describe('2 blank lines', function () {
         test('error on 1 blank line', function () {
             var sourceFile = "\n        import * as React from 'react';\n        import './styles.scss';\n\n        const myVar = 'dummy';\n      ";
